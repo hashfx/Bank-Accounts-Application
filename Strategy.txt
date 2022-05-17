@@ -1,0 +1,27 @@
+Bank:
+	ArrayList<Customer> customers
+	int selectAccount()
+	void addCustomer(Customer)
+Customer:
+	String firstName
+	string lastName
+	Account account
+	SSN
+Account
+	double balance
+	double interest
+	int accountNum
+	void withdraw(double amount)
+	void deposit(double amount)
+Menu
+	Scanner keyboard
+	Bank bank
+	void printMenu()
+	void createAccount()
+	void makeDeposit()
+	void makeWithdrawl()
+	void listBalance()
+Checking
+	String accountType
+Savings
+	String accountType
