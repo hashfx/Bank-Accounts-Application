@@ -26,30 +26,21 @@ public abstract class Account  implements Serializable{
         return balance;
     }
 
-    /**
-     * @param balance the balance to set
-     */
     public void setBalance(double balance) {
         this.balance = balance;
     }
 
-    /**
-     * @return the interest
-     */
+
     public double getInterest() {
         return interest;
     }
 
-    /**
-     * @param interest the interest to set
-     */
+
     public void setInterest(double interest) {
         this.interest = interest;
     }
 
-    /**
-     * @return the accountNumber
-     */
+
     public int getAccountNumber() {
         return accountNumber;
     }

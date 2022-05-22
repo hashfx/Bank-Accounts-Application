@@ -2,7 +2,7 @@ package bankapp;
 
 
 public class Checking extends Account{
-    private static String accountType = "Checking";
+    private static String accountType = "Current";
     
     Checking(double initialDeposit){
         this.setBalance(initialDeposit);

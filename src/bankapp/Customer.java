@@ -2,14 +2,8 @@ package bankapp;
 
 import java.io.Serializable;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- *
  * @author hashfx
  */
 public class Customer  implements Serializable{
@@ -42,23 +36,17 @@ public class Customer  implements Serializable{
         return account;
     }
 
-    /**
-     * @return the firstName
-     */
+
     public String getFirstName() {
         return firstName;
     }
 
-    /**
-     * @return the lastName
-     */
+
     public String getLastName() {
         return lastName;
     }
 
-    /**
-     * @return the ssn
-     */
+
     public String getSsn() {
         return ssn;
     }
